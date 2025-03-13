@@ -1,0 +1,129 @@
+function App() {
+    return (
+      <div className="container">
+        <header className="title">
+          <h1>Battle Pong Project</h1>
+          <p className="lead">
+            Welcome to our EEC172 Final Project webpage! Scroll down for
+            details, video demos, and a bill of materials.
+          </p>
+        </header>
+  
+        {/* Project Description */}
+        <section className="section">
+          <h2>Project Description</h2>
+          <p>
+            Battle Pong is a modern twist on the classic Pong arcade game,
+            featuring real-time motion control, interactive obstacles,
+            and a Wi-Fi enabled scoring system. Our goal is to make a
+            standalone, plug-and-play experience using the CC3200 microcontroller.
+          </p>
+          <ul>
+            <li>
+              <strong>Hardware Protocols:</strong> We use I2C to connect
+              to an accelerometer for paddle motion, SPI for a display module,
+              and a custom UART interface for debugging.
+            </li>
+            <li>
+              <strong>Web Services:</strong> The score is pushed to a
+              simple AWS IoT service so players can compare results.
+            </li>
+            <li>
+              <strong>Sensing Devices:</strong> IR proximity sensor and
+              accelerometer are included for interactive gameplay.
+            </li>
+          </ul>
+        </section>
+  
+        {/* Video Demo */}
+        <section className="section">
+          <h2>Video Demo</h2>
+          <p>
+            Check out our short demo video showcasing the gameplay in action:
+          </p>
+          <div className="video-wrapper">
+            {/* Replace "XYZ123" with your actual YouTube video ID or link */}
+            <iframe
+              src="https://www.youtube.com/embed/XYZ123"
+              frameBorder="0"
+              allowFullScreen
+            ></iframe>
+          </div>
+        </section>
+  
+        {/* Implementation / System Architecture */}
+        <section className="section">
+          <h2>Implementation</h2>
+          <p>
+            Below is a simplified block diagram showing how the CC3200
+            communicates with our sensors and external services:
+          </p>
+          <img
+            src="images/system_diagram.png"
+            alt="System Architecture"
+            style={{ maxWidth: "100%", border: "1px solid #ccc" }}
+          />
+          <p className="mt-2">
+            We manage input from the accelerometer for paddle movement,
+            process collisions with obstacles, and handle networking tasks
+            to update the leaderboard on AWS IoT.
+          </p>
+        </section>
+  
+        {/* Bill of Materials */}
+        <section className="section">
+          <h2>Bill of Materials</h2>
+          <table className="table table-bordered">
+            <thead>
+              <tr>
+                <th>Part</th>
+                <th>Quantity</th>
+                <th>Cost (USD)</th>
+                <th>Source</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>CC3200 LaunchPad</td>
+                <td>1</td>
+                <td>$30</td>
+                <td>
+                  <a href="https://www.ti.com/tool/CC3200-LAUNCHXL">TI Store</a>
+                </td>
+              </tr>
+              <tr>
+                <td>Accelerometer (e.g. MPU-6050)</td>
+                <td>1</td>
+                <td>$5</td>
+                <td>Amazon</td>
+              </tr>
+              <tr>
+                <td>IR Sensor Module</td>
+                <td>1</td>
+                <td>$3</td>
+                <td>Amazon/eBay</td>
+              </tr>
+              <tr>
+                <td>Misc. Wires, Breadboard</td>
+                <td>Several</td>
+                <td>$5</td>
+                <td>Lab Inventory</td>
+              </tr>
+              {/* Add more rows if needed */}
+            </tbody>
+          </table>
+        </section>
+  
+        {/* Future Work / Conclusion */}
+        <section className="section">
+          <h2>Future Work</h2>
+          <p>
+            In the future, we’d like to integrate more advanced sensors,
+            add online multiplayer capabilities, and enhance the obstacle
+            design to create a truly unpredictable “battle” environment!
+          </p>
+        </section>
+      </div>
+    );
+  }
+  
