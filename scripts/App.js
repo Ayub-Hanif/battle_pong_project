@@ -3,16 +3,18 @@ function App() {
       <div className="container">
         <header className="title">
           <h1>Battle Pong Project</h1>
-          <p className="lead">
-            Welcome to our EEC172 Final Project webpage! Scroll down for
-            details, video demos, and a bill of materials.
-          </p>
         </header>
   
         {/* Project Description */}
         <section className="section">
+
+          <p className="lead">
+            Welcome to our EEC172 Final Project webpage! Scroll down for
+            details, video demos, and a bill of materials.
+          </p>
+
           <h2>Project Description</h2>
-          <p>
+          <p className="Description">
             Battle Pong is a modern twist on the classic Pong arcade game,
             featuring real-time motion control, interactive obstacles,
             and a Wi-Fi enabled scoring system. Our goal is to make a
