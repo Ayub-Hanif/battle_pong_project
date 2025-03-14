@@ -14,12 +14,16 @@ function App() {
           </p>
 
           <h2>Project Description</h2>
-          <p className="Description">
-            Battle Pong is a modern twist on the classic Pong arcade game,
-            featuring real-time motion control, interactive obstacles,
-            and a Wi-Fi enabled scoring system. Our goal is to make a
-            standalone, plug-and-play experience using the CC3200 microcontroller.
-          </p>
+            <p className="Description">
+              Battle Pong reimagines the classic Pong arcade game with modern features, including real-time motion control, interactive obstacles, and a Wi-Fi enabled scoring system. Built as a standalone, plug-and-play experience using the CC3200 LaunchPad, the game integrates UART communication, accelerometer-based controls, and real-time gameplay mechanics.
+            </p>
+            <p className="Description">
+              In this project, two players competed over a UART link while controlling their paddles with ADC-controlled joysticks. Players earned points by accurately positioning a dot on the screen, which could then be used to upgrade their paddle—enhancing launch power and unlocking additional abilities. Moreover, a unique gameplay element allowed players to shake the board to fire a cannon shot across the screen, instantly defeating an opponent if it hit.
+            </p>
+            <p className="Description">
+              This project combined key embedded systems concepts such as interrupt-driven I/O, real-time physics updates, and bidirectional UART communication. Careful firmware design and debugging ensured responsive controls, smooth gameplay, and reliable interaction between the two CC3200 boards.
+            </p>
+
           <ul>
             <li>
               <strong>Hardware Protocols:</strong> We use I2C to connect
@@ -46,7 +50,7 @@ function App() {
           <div className="video-wrapper">
             {/* Replace "XYZ123" with your actual YouTube video ID or link */}
             <iframe
-              src="https://www.youtube.com/embed/XYZ123"
+              src="https://www.youtube.com/embed/Qu3aiKrsQtc"
               frameBorder="0"
               allowFullScreen
             ></iframe>
