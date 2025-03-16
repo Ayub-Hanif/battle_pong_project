@@ -140,9 +140,15 @@ function App() {
         <section className="section">
           <h2>Future Work</h2>
           <p>
-            In the future, we’d like to integrate more advanced sensors,
-            add online multiplayer capabilities, and enhance the obstacle
-            design to create a truly unpredictable “battle” environment!
+            In the future, we hope to add two other buttons, one that can upgrade the scroll pad speed to make things more interesting and challenging
+            in the later stages of the game. Another button would allow the user to repair the board they are playing on, which would also mean getting
+            shot by a cannon doesn’t end the game but only breaks the scroll pad.
+          </p>
+          <p>
+            Another thing we noticed while connecting the two boards through UART is that, sometimes due to noise in the circuit, the pong ball would get
+            lost in the transfer process of going from one board to another through UART channel. To fix this problem, we can do a quick verification process 
+            through UART, essentially after sending over the ball, the board waits for a confirmation from the other board, and if nothing is sent, then our 
+            program would use a timer interrupt to send over the ball once again.
           </p>
         </section>
       </div>
