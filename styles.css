@@ -9,6 +9,12 @@ body {
   text-align: center;
   margin: 40px 0;
 }
+.Project_Description {
+  background-color: rgb(248, 240, 230);
+  width: 100%;
+  padding: 20px;
+  border-radius: 10px;
+}
 
 .section {
   margin-bottom: 2rem;
@@ -16,21 +22,27 @@ body {
 
 .section p {
   margin: 0.5rem 0;
-  color: #1c093f;
+  color: #000000;
   position: relative;
   padding-left: 35px; 
 }
 
 .section p::before {
   font-family: 'Courier New', Courier, monospace;
-  content: "->";
   position: absolute;
   left: 0;
-  color: #1c093f;
+  color: #000000;
   font-size: 1.5rem;
   line-height: 1; 
 }
 
+.Video_Demo
+{
+  text-align: center;
+  margin: 40px 0;
+  background-color: rgb(247, 245, 244);
+  transition: 1s ease;
+}
 .video-wrapper {
   position: relative;
   padding-bottom: 56.25%;
@@ -51,7 +63,7 @@ header {
   color: #000000;
   padding: 10px 0;
   text-align: center;
-  border-bottom: 1px solid #1d8f8f;
+  border-bottom: 1px solid #000000;
   box-shadow: #474747 0px 2px;
 
   transition: 1s ease;
@@ -64,17 +76,17 @@ header:hover {
 .Description {
   color: #000000;
   padding: 10px 0;
-  text-align: left;
-
+  text-align: center;
+  margin: 40px 0;
   transition: 1s ease;
 }
 
 .Design {
   color: #000000;
-  padding: 10px 0;
+  background-color: rgb(248, 240, 230);
+  padding: 20px;
   text-align: left;
   align-items: center;
-
   transition: 1s ease;
 }
 
@@ -90,3 +102,101 @@ header:hover {
 .image:hover {
   transform: scale(1.1);
 }
+
+.Oled_Interface
+{
+  color: #000000;
+  background-color: rgb(247, 245, 244);
+  padding: 20px 20px 20px 20px;
+  text-align: left;
+  align-items: center;
+  transition: 1s ease;
+}
+.I2C_communication
+{
+  color: #000000;
+  background-color: rgb(248, 240, 230);
+  padding: 20px 20px 20px 20px;
+  text-align: left;
+  align-items: center;
+  transition: 1s ease;
+}
+.connection_joystick
+{
+  color: #000000;
+  background-color: rgb(247, 245, 244);
+  padding: 20px 20px 20px 20px;
+  text-align: left;
+  align-items: center;
+  transition: 1s ease;
+}
+.UART_communication
+{
+  color: #000000;
+  background-color: rgb(248, 240, 230);
+  padding: 20px 20px 20px 20px;
+  text-align: left;
+  align-items: center;
+  transition: 1s ease;
+}
+.Configuring_buttons
+{
+  color: #000000;
+  background-color: rgb(247, 245, 244);
+  padding: 20px 20px 20px 20px;
+  text-align: left;
+  align-items: center;
+  transition: 1s ease;
+}
+
+.AWS_leaderboard
+{
+  color: #000000;
+  background-color: rgb(248, 240, 230);
+  padding: 20px 20px 20px 20px;
+  text-align: left;
+  align-items: center;
+  transition: 1s ease;
+}
+.SNS_email
+{
+  color: #000000;
+  background-color: rgb(247, 245, 244);
+  padding: 20px 20px 20px 20px;
+  margin-bottom: 20px;
+  text-align: left;
+  align-items: center;
+  transition: 1s ease;
+}
+.Challenges
+{
+  color: #000000;
+  background-color: rgb(248, 240, 230);
+  padding: 20px 20px 20px 20px;
+  text-align: left;
+  margin-bottom: 20px;
+  bottom: 20px;
+  align-items: center;
+  transition: 1s ease;
+}
+.Future_Work
+{
+  color: #000000;
+  background-color: rgb(247, 245, 244);
+  padding: 20px 20px 20px 20px;
+  margin-bottom: 20px;
+  text-align: left;
+  align-items: center;
+  transition: 1s ease;
+}
+.Bill_of_Materials
+{
+  color: #000000;
+  background-color: rgb(248, 240, 230);
+  padding: 20px 20px 20px 20px;
+  margin-bottom: 50px;
+  text-align: left;
+  align-items: center;
+  transition: 1s ease;
+}
+
