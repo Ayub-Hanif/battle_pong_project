@@ -108,28 +108,34 @@ function App() {
               <tr>
                 <td>CC3200 LaunchPad</td>
                 <td>1</td>
-                <td>$30</td>
+                <td>$47.99</td>
                 <td>
-                  <a href="https://www.ti.com/tool/CC3200-LAUNCHXL">TI Store</a>
+                  <a href="https://www.ti.https://www.digikey.com/en/products/detail/texas-instruments/CC3220S-LAUNCHXL/6695807/tool/CC3200-LAUNCHXL">Digi Key</a>
                 </td>
               </tr>
               <tr>
-                <td>Accelerometer (e.g. MPU-6050)</td>
+                <td>2-axis joystick</td>
                 <td>1</td>
-                <td>$5</td>
-                <td>Amazon</td>
+                <td>$5.95</td>
+                <td>
+                  <a href="https://www.digikey.com/en/products/detail/adafruit-industries-llc/512/7056915">Digi Key</a>
+                </td>
               </tr>
               <tr>
-                <td>IR Sensor Module</td>
+                <td>Pushbutton Switch</td>
                 <td>1</td>
-                <td>$3</td>
-                <td>Amazon/eBay</td>
+                <td>$0.50</td>
+                <td>
+                  <a href="https://www.electromaker.io/shop/product/momentary-pushbutton-switch-12mm-square?srsltid=AfmBOooC7bH8bDFUnYHD7odnyyBR-o4qopjPOh_KPgndrQih9CyytATA2CE&gQT=1">Electro Maker</a>
+                </td>
               </tr>
               <tr>
-                <td>Misc. Wires, Breadboard</td>
+                <td>Assorted Wires</td>
                 <td>Several</td>
-                <td>$5</td>
-                <td>Lab Inventory</td>
+                <td>$5.97</td>
+                <td>
+                  <a href="https://www.amazon.com/California-JOS-Breadboard-Optional-Multicolored/dp/B0BRTJXND9/ref=asc_df_B0BRTHR2RL?mcid=b0d480e784aa3f86b7e873b50dbd35ff&tag=hyprod-20&linkCode=df0&hvadid=693363874255&hvpos=&hvnetw=g&hvrand=478299346480502350&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9032521&hvtargid=pla-2064166793246&th=1">Amazon</a>
+                </td>
               </tr>
               {/* Add more rows if needed */}
             </tbody>
