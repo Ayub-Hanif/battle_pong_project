@@ -222,7 +222,6 @@ header:hover {
   align-items: center;
   content: '';
   display: block;
-  position: absolute;
   width: 200%;
   right: -50%;
   bottom: -50%;
