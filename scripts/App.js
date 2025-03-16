@@ -40,7 +40,23 @@ function App() {
             </li>
           </ul>
         </section>
-  
+
+        <section className="Design">
+          <h2>Design</h2>
+          <ul>
+          <strong>Functional Specifications:</strong>
+          <img className="image"
+            src="images/image1.png"
+            alt="Functional Specifications"
+          />
+          </ul>
+          <ul>
+          <strong>System Architecture:</strong>
+          <img className="image"
+            src="images/image2.png"
+            alt="System Architecture:"/>
+            </ul>
+          </section>
         {/* Video Demo */}
         <section className="section">
           <h2>Video Demo</h2>
