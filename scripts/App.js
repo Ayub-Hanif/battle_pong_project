@@ -333,7 +333,7 @@ function App() {
         <section class="Acknowledgements">
           <div class="rainbow-glow">
             <div class="card">
-              <div class="ack">created by: Mohammad Ayub Hanif Saleh and Raiyan Sazid</div>
+              <div class="ack">Created By: Raiyan Sazid and Mohammad Ayub Hanif Saleh</div>
             </div>
           </div>
         </section>
