@@ -200,8 +200,9 @@ header:hover {
   transition: 1s ease;
 }
 
-.Acknowledgements
+.acknowledgement
 {
+  padding: 20px 20px 20px 20px;
   margin-bottom: 50px;
   text-align: center;
   align-items: center;
@@ -213,6 +214,7 @@ header:hover {
   align-items: center;
   display: inline-block;
   padding: 5px;
+  position: relative;
   border-radius: 0; /* Removed rounded corners */
 }
 
@@ -251,13 +253,13 @@ header:hover {
   top: -50%;
   background-position: center center;
   background-image: conic-gradient(from 0 at 50% 50%, transparent 50%, #fff845, #1cc98c, #24cbde, #57a9f7, #bd52f9, #ebb347);
-  animation: rainbowRotate 4s linear infinite;
+  animation: rainbowRotate 2s linear infinite;
 }
 
-.rainbow-glow .content {
+.rainbow-glow .ack {
   font-size: 2rem;
   align-items: center;
-  padding: 100px;
+  padding: 200px;
   background: white;
   border-radius: 0; /* Rectangle shape */
   position: relative;
@@ -275,13 +277,13 @@ header:hover {
 
 @keyframes rainbowGlowRotate {
   0% {
-    transform: rotate(0deg) scale(0.3);
+    transform: rotate(0deg) scale(0.2);
   }
   50% {
-    transform: rotate(180deg) scale(0.3);
+    transform: rotate(180deg) scale(0.2);
   }
   100% {
-    transform: rotate(360deg) scale(0.3);
+    transform: rotate(360deg) scale(0.5);
   }
 }
 
