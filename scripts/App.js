@@ -328,6 +328,18 @@ function App() {
             </tbody>
           </table>
         </section>
+
+
+        <section class="Acknowledgements">
+  <div class="rainbow-glow">
+    <div class="card">
+      <h3 class="title">created by:</h3>
+      <div class="content">Mohammad Ayub Hanif Saleh and Raiyan Sazid</div>
+    </div>
+  </div>
+</section>
+
+
       </div>
     );
   }
